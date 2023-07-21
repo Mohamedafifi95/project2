@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/TMS
+    username: postgres
+    password: *****
+
+logging:
+  level:
+    com:
+      skillstorm: debug
