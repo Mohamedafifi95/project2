@@ -7,7 +7,7 @@ export default function Page1() {
         <>
         <h3>Page 1</h3>
         <div style={{ width: '200px', height: '150px' }}>
-                <img src="https://images.pexels.com/photos/3777622/pexels-photo-3777622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, perferendis magni officiis aliquam a, doloremque iste numquam magnam quasi, nemo blanditiis quis. Fugit fugiat laboriosam, quos consequatur corporis consequuntur aut.</p>
             </div>
         </>
     );
