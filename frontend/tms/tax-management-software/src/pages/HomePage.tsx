@@ -1,7 +1,8 @@
 import { Address, Footer, FooterNav, GovBanner, Grid, GridContainer, Header, Logo, Menu, NavDropDownButton, NavMenuButton, PrimaryNav, Search, SideNav, SocialLink, SocialLinks, Title } from "@trussworks/react-uswds"
 import React, { useState } from "react"
+import '@trussworks/react-uswds/lib/index.css';
 
-(): React.ReactElement => {
+const HomePage: React.FC = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [navDropdownOpen, setNavDropdownOpen] = useState([false, false])
 
@@ -249,4 +250,4 @@ import React, { useState } from "react"
   )
 }
 
-export default NewNavBar;
+export default HomePage;
