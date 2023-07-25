@@ -1,5 +1,5 @@
 import React, { CSSProperties, useState } from 'react';
-import UserForm from '../UserForm';
+import UserForm from './UserForm';
 
 const centeredComponentStyle: CSSProperties = {
   textAlign: 'center',
