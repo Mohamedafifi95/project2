@@ -163,7 +163,7 @@ const HomePage: React.FC = () => {
           <div className="usa-navbar">
             <Title id="basic-logo">
               <a href="/" title="Home" aria-label="Home">
-                Project title
+                IRS Tax Management System
               </a>
             </Title>
             <NavMenuButton
