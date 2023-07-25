@@ -1,5 +1,5 @@
-import { Address, Button, Fieldset, Footer, FooterNav, Form, GovBanner, Grid, GridContainer, Header, Identifier, IdentifierGov, IdentifierIdentity, IdentifierLink, IdentifierLinkItem, IdentifierLinks, IdentifierLogo, IdentifierLogos, IdentifierMasthead, Label, Link, Logo, Menu, NavDropDownButton, NavMenuButton, PrimaryNav, Search, SideNav, SocialLink, SocialLinks, TextInput, Title } from "@trussworks/react-uswds"
-import React, { useState } from "react"
+import { Button, Fieldset, Form, Grid, GridContainer, Header, Label, Link, TextInput, Title } from "@trussworks/react-uswds"
+import React from "react"
 import '@trussworks/react-uswds/lib/index.css';
 
 
@@ -19,11 +19,6 @@ const SignInPage: React.FC = () => {
 
     return (
         <>
-            <a className="usa-skipnav" href="#main-content">
-                Skip to main content
-            </a>
-
-
             <Header extended>
                 <div className="usa-navbar">
                     <Title id="extended-logo">
@@ -78,7 +73,7 @@ const SignInPage: React.FC = () => {
 
                                             <Button type="submit">Sign in</Button>
 
-                                            
+
                                         </Fieldset>
                                     </Form>
                                 </div>
